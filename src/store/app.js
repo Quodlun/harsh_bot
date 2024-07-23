@@ -6,7 +6,10 @@ export const useAppStore = defineStore
   {
     state: () =>
     (
-      {}
+      {
+        client:null,
+        commandsActionMap: null,
+      }
     ),
 
     getters:
